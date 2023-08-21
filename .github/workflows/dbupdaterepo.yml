@@ -20,5 +20,5 @@ jobs:
         DATABRICKS_HOST: ${{ secrets.DATABRICKS_HOST }}
         DATABRICKS_TOKEN: ${{ secrets.DATABRICKS_TOKEN }}
       run: |
-        databricks version
+        databricks -h
         # databricks repos update --branch main --path /Repos/prod-irina-test/training-test
