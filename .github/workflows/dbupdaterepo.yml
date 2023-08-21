@@ -21,4 +21,4 @@ jobs:
         DATABRICKS_TOKEN: ${{ secrets.DATABRICKS_TOKEN }}
       run: |
         databricks repos get --path /Repos/prod-irina-test/training-test
-        # databricks repos update --branch main --path /Repos/prod-irina-test/training-test
+        databricks repos update --branch main --path /Repos/prod-irina-test/training-test
