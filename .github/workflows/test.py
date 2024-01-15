@@ -2,4 +2,6 @@ dbutils.fs.ls("abfss://external-location@testucirina.dfs.core.windows.net/shared
 dbutils.fs.ls("/mnt/shared-tables")
 
 
-Hello dbfs:/mnt/shared-tables
+Hello "dbfs:/mnt/shared-tables"
+
+Hello "/mnt/shared-tables/"
